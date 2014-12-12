@@ -1,0 +1,67 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    
+    <TextView
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/longitude_label" />
+
+    <TextView
+        android:id="@+id/longitude_reading"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/empty_coord" />
+
+    <TextView
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/latitude_label" />
+    
+    <TextView
+        android:id="@+id/latitude_reading"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/empty_coord" />
+
+    <Button
+        android:id="@+id/track_button"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:onClick="trackButtonOnClick"
+        android:text="@string/start_tracking"/>
+
+    <Button
+        android:id="@+id/stop_track_button"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:onClick="stopTrackButtonOnClick"
+        android:enabled="false"
+        android:text="@string/stop_tracking"/>
+
+</GridLayout>
