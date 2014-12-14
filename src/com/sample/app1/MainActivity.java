@@ -1,5 +1,9 @@
 package com.sample.app1;
 
+import com.sample.app1.R;
+import com.sample.app1.R.id;
+import com.sample.app1.R.layout;
+import com.sample.app1.R.menu;
 import com.sample.utils.Utils;
 
 import android.app.Activity;
