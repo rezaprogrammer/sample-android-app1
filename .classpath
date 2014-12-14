@@ -5,5 +5,15 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="libs/google-maps-services-0.1.4/google-maps-services-0.1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/gson-2.2.4/gson-2.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-annotations-2.4.0/jackson-annotations-2.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-core-2.4.2/jackson-core-2.4.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-databind-2.4.4/jackson-databind-2.4.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/joda-time-2.4/joda-time-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/okhttp-2.1.0/okhttp-2.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/okio-1.0.1/okio-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/org.apache.httpcomponents.httpclient_4.3.6/org.apache.httpcomponents.httpclient_4.3.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/android-support-v4/android-support-v4.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
