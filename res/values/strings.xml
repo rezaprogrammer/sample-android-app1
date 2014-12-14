@@ -25,4 +25,13 @@
 	<string name="speech_recognizer_results">No results</string>
 	<string name="speech_recognizer_status">Inactive</string>
 
+    <!-- ArrivalEstimationActivity -->
+    <string name="title_activity_arrival_estimation">Estimate your arrival</string>
+    <string name="curr_loc_label">Your current location:</string>
+    <string name="dest_loc_label">Your destination:</string>
+    <string name="estimate_button">Estimate arrival!</string>
+    <string name="empty"></string>
+    <string name="default_origin_addr">Bellevue, WA</string>
+    <string name="reset_map_quota_button">Reset maps quota</string>
+    
 </resources>
