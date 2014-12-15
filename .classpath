@@ -19,5 +19,7 @@
 	<classpathentry exported="true" kind="lib" path="libs/aws-android-sdk-2.1.5-core/aws-android-sdk-2.1.5-core.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/log4j-1.2.16.jar/log4j-1.2.16.jar"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/aws-android-sdk-2.1.5-s3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/aws-android-sdk-2.1.5-sns"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/aws-android-sdk-2.1.5-kinesis"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

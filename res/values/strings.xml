@@ -36,4 +36,8 @@
     <string name="title_activity_aws_s3">AwsS3Activity</string>
     <string name="save_button">Save</string>
     
+    <!--  AwsSNSActivity -->
+    <string name="title_activity_aws_kinesis">AwsKinesisActivity</string>
+    <string name="zero">0</string>
+    <string name="list_button">List</string>
 </resources>
